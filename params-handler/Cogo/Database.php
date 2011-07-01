@@ -9,4 +9,10 @@ abstract class Database {
         setParams as private;
         setParam as protected;
     }
+
+    protected function someDatabaseRelatedMethod() {
+        // ...
+    }
+
+    abstract protected function someOtherDatabaseRelatedMethod();
 }
